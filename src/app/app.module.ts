@@ -6,11 +6,20 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { Tela1Page } from '../pages/tela1/tela1';
+import { Tela2Page } from '../pages/tela2/tela2';
+import { Tela3Page } from '../pages/tela3/tela3';
+import { Tela4Page } from '../pages/tela4/tela4';
+
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    Tela1Page,
+    Tela2Page,
+    Tela3Page,
+    Tela4Page
   ],
   imports: [
     BrowserModule,
@@ -19,7 +28,11 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    Tela1Page,
+    Tela2Page,
+    Tela3Page,
+    Tela4Page
   ],
   providers: [
     StatusBar,
